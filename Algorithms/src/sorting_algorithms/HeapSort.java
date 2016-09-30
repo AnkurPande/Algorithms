@@ -11,6 +11,7 @@ public class HeapSort {
 		this.size = array.length;
 	}
 	
+	
 	public void heapify(int index){
 		int largest    = index;
 		int leftchild  = 2 * index + 1;
